@@ -137,11 +137,11 @@ nav h3 {
     width: 46vw;
     height: 36vw;
     right: 0;
-    top: 65vh;
+    top: 74vh;
 }
 
 #hero-1 {
-    background-color: #FE320A;
+    background-color:rgb(45, 47, 177);
     height: 100%;
     width: 100%;
     border-top-left-radius: 50%;
@@ -151,7 +151,7 @@ nav h3 {
 }
 
 #hero-2 {
-    background: linear-gradient(#FE320A, #fe3f0a);
+    background: linear-gradient(rgb(137, 169, 205),rgb(45, 47, 177));
 
     height: 30vw;
     width: 30vw;
@@ -166,7 +166,7 @@ nav h3 {
 }
 
 #hero-3 {
-    background: linear-gradient(#FE320A, #fe3f0a);
+    background: linear-gradient(rgb(137, 169, 205),rgb(45, 47, 177));
     height: 30vw;
     position: absolute;
     width: 30vw;
@@ -237,6 +237,7 @@ nav h3 {
     border-radius: 50%;
     display: inline-block;
     background-color: #FE320A;
+    background-color: rgb(45, 47, 177);
     margin: 1vw 2vw;
 }
 
@@ -289,7 +290,7 @@ nav h3 {
     width: 32vw;
     position: absolute;
     border-radius: 50%;
-    background: linear-gradient(to top right, #ff2d03, #ff5c0b);
+    background: linear-gradient(to top right, rgb(67, 110, 160),rgb(59, 61, 182));
     /* background: linear-gradient(to top right,red,blue); */
 
 
@@ -347,7 +348,7 @@ nav h3 {
 .elem .overlay {
     height: 100%;
     width: 100%;
-    background-color: orange;
+    background-color: rgb(112, 164, 238);
     position: absolute;
     left: 0;
     top: -100%;
@@ -420,7 +421,7 @@ nav h3 {
 #footer-div {
     height: 20vh;
     width: 100%;
-    background-color: red;
+    background-color: rgb(45, 47, 177);
 }
 
 #footer-bottom {
@@ -557,6 +558,7 @@ nav h3 {
         border-radius: 50%;
         display: inline-block;
         background-color: #FE320A;
+        background-color: rgb(45, 47, 177);
         margin: 2vw 2vw;
     }
 
@@ -635,6 +637,7 @@ nav h3 {
     font-size: 4vw;
     color: transparent;
     background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right,rgb(137, 169, 205),rgb(45, 47, 177));
     -webkit-background-clip: text;
     position: absolute;
     opacity: 0;
@@ -647,6 +650,43 @@ nav h3 {
     animation-delay: 2s;
 }
 #loader h1:nth-child(3){
+    animation-delay: 3s;
+}
+#loader h3{
+    font-size: 6vw;
+    color: transparent;
+    background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right,rgb(137, 169, 205),rgb(45, 47, 177));
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h3:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h3:nth-child(3){
+    animation-delay: 3s;
+}#loader h6{
+    font-size: 8vw;
+    color: transparent;
+    background: linear-gradient(to right,orange,orangered);
+    background: linear-gradient(to right,rgb(137, 169, 205),rgb(45, 47, 177));
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#loader h6:nth-child(2){
+    animation-delay: 2s;
+}
+#loader h6:nth-child(3){
     animation-delay: 3s;
 }
 
