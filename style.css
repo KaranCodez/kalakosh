@@ -41,7 +41,7 @@ html, body {
     padding: 0 2vw;
 }
 #logo {
-  height: 50px;
+  height: 60px;
   width: auto;
   object-fit: contain;
   cursor: pointer;
