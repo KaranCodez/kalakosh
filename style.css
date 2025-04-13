@@ -40,6 +40,13 @@ html, body {
     position: relative;
     padding: 0 2vw;
 }
+#logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
 
 nav {
     padding: 2vw 0vw;
